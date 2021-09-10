@@ -1,0 +1,358 @@
+  
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 180px;
+  width: 215px;
+  opacity: 0.6;
+
+}
+/* Start NavBar */
+
+.NavBar {
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 100;
+  }
+
+.NavBar .Container{
+    width: 94%;
+    margin: auto;
+}
+
+  .NavBar .Container .Left{
+   float: left;
+  }
+
+  .NavBar .Container .Left h3 {
+    font-weight: 150;
+    color: #009900;
+    font-size: 30px;
+    margin: 9px;
+    font-family: 'Lobster', cursive;
+
+   }
+
+  .NavBar .Container .Right{
+  float: right;
+  padding: 19px;
+  font-size: 15px;
+  }
+
+  .NavBar .Container .Right a {
+    text-decoration: none;
+    margin:  5px;
+    padding:3px;
+    color: #009900;
+    font-size: 19px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   }
+
+   .NavBar .Container .Right a:hover{
+    border-bottom: 2px solid   #009900; 
+    color: #000000;
+    font-size: 20px;
+    padding-bottom: 17px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+   }
+  /* End NavBar */
+
+  /* Start Background */
+
+  .slideshow-container img{
+    height: 90vh;
+    width: 100%;
+  }
+  .slideshow-container {
+ 
+    position: relative;
+  
+  }
+  
+  .prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    right:  97.3%;
+    background-color: rgba(0,0,0,0.8);
+  }
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    left: 97%;
+    background-color: rgba(0,0,0,0.8);
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .next {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+  
+ /* End Background */
+
+ /*  Start Menu Section */
+  .Cont{
+    padding-top:65px;
+    margin-left: 37px;
+  }
+  .Cont h3{
+    font-weight: 150;
+    color: #009900;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    font-family: 'Lobster', cursive;
+  }
+  .Cont table{
+    padding-top: 65px;
+  }
+  .Cont table th img{
+   margin: 2.5px 3.5px;
+   padding-left:5px;
+   width: 280px;
+   height: 195px;
+  }
+  .Cont h5{
+    color: #009900;
+    font-size: 1.2em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 17px;
+   }
+   .Cont span{
+      color: #fa7f04c0;
+      font-size: 1.2em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 17px;
+   }
+  
+ /* End Menu Section */
+
+.setpadding{
+  padding-top: 30px;
+}
+.Im{
+  height: 100px;
+  background-image: url("../Images/banner-bg.jpg");
+  padding: 80px 0;
+  background-size: cover;
+position: relative;
+}
+.Im h2{
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  right: 43%;
+  z-index: 100000000;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  letter-spacing: 2px;
+  }
+  .Im p {
+      position: absolute;
+      color: #fff;
+      z-index: 1111;
+      top: 52%;
+      left: 27%;
+      font-size: 15px;
+      text-align: center;
+      font-family: 'Barlow Semi Condensed', sans-serif;
+  
+}
+
+
+.SecTeam{
+padding-top: 35px;
+margin-left: 30px;
+}
+.Team{
+  display: inline-block;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.lft{
+  padding-bottom: 20px;
+}
+
+.itm{
+  display: inline-block;
+ 
+  margin-right: 10px;
+  height: 150px;
+  position: relative;
+}
+.itm:hover span ,
+    .itm:hover .overlay
+    {
+visibility: visible;
+    }
+    .itm span{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border: 1px solid #ffffff;
+      border-radius: 8px;
+      padding: 4px;
+      transform: translate(-50% ,-50%);
+      color: #ffffff;
+      z-index: 111111;
+      visibility: hidden;
+
+  }
+.itm .overlay{
+  
+     visibility: hidden;
+     background-color: #05b18e;
+     
+  }
+.itm img{
+  height: 180px;
+  width: 215px;
+}
+
+ .SecTeam p{
+  font-size:14px;
+  line-height: 19px;
+ padding-bottom: 18px ;
+ margin:20px 0 0 0;
+ font-family: 'Barlow Semi Condensed', sans-serif;
+  
+}
+
+
+ /* Start Book Section*/
+  .secpaddind{
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+ 
+ 
+  .secpaddind input{
+    border: 1px solid #eeeeee;
+    font-size: 0.9em;
+    width: 360px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+  .secpaddind input.Inp1{
+    width: 1156px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px 5px;
+    }
+    .secpaddind button{
+      font-size: 20px;
+      background-color:#009900;
+       color: #ffffff;
+       height: 42px;
+       width: 205px;
+      text-align: center;
+      margin: 3px;
+       border: 1px solid #eeeeee;
+       font-family: 'Lobster', cursive;
+     
+    }
+   
+    /*  End Book Section */
+
+    /* Start footer */
+    footer{
+      margin-top: 70px;
+      padding-bottom: 44px;
+      overflow: hidden;
+      background-color: #000;
+      color: #fff;
+    }
+    footer .containar{
+      margin: auto;
+    width: 94%;
+    }
+    footer .containar .Abt,
+footer .containar .contact,
+footer .containar .open,
+footer .containar .offer
+{
+float: left;
+width: 23%;
+margin-right: 22px;
+padding-top:50px;
+}
+
+    footer .containar .Abt h5,
+footer .containar .contact h5,
+footer .containar .open h5,
+footer .containar .offer h5
+{
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 15px;
+    color: #009900;
+    font-family: 'Lobster', cursive;
+}
+footer .containar .Abt p,
+footer .containar .contact p,
+footer .containar .open p,
+footer .containar .offer p{
+  font-size: 16px;
+  color: #a7a7a7;
+  margin-bottom: 2px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+footer .containar span{
+  padding-left:30px;
+}
+footer .containar span .s1{
+  padding-left:35px;
+ }
+ 
+ footer .offer .sp {
+  border-bottom: 1px solid #a7a7a7;
+  padding-bottom: 8px;
+  display: block;
+  opacity: 0.8;
+  margin-bottom: 8px;
+  font-size: 14px;
+  padding-left:0;
+  font-size: 16px;
+  color: #eeeeee;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}

@@ -1,0 +1,220 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Start NavBar */
+.NavBar {
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.NavBar .Container{
+  width: 94%;
+  margin: auto;
+}
+
+.NavBar .Container .Left{
+ float: left;
+}
+
+.NavBar .Container .Left h3 {
+  font-weight: 150;
+  color: #009900;
+  font-size: 30px;
+  margin: 9px;
+  font-family: 'Lobster', cursive;
+
+ }
+
+.NavBar .Container .Right{
+float: right;
+padding: 19px;
+font-size: 15px;
+}
+
+.NavBar .Container .Right a {
+  text-decoration: none;
+  margin:  5px;
+  padding:3px;
+  color: #009900;
+  font-size: 19px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+ }
+
+ .NavBar .Container .Right a:hover{
+  border-bottom: 2px solid   #009900; 
+  color: #000000;
+  font-size: 20px;
+  padding-bottom: 17px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+ }
+/* End NavBar */
+.contactt{
+  position: relative;
+  padding: 50px 10px;
+  background: url(../Images/banner-bg.jpg);
+  background-size: cover;
+}
+
+.contactt .content h2{
+  color: #009900;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Redressed', cursive;
+    font-weight: bold;
+}
+.container{
+  width: 100%;
+
+}
+.container .box{
+  position: relative;
+  padding: 10px 0;
+  height: 60px;
+  background: #fff;
+}
+.container .box.text{
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+
+}
+.contactform{
+  width: 40%;
+  padding: 0px 40px;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #009900;
+    font-weight: 300;
+    
+
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+.contactform .inputbox input
+{
+    width: 80%;
+    height: 40px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 7px 0;
+    border: none;
+    outline: none;
+    resize: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+
+}
+.contactform .inputbox textarea{
+    width: 80%;
+    height: 150px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #009900;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.contactform .inputbox input[type="submit"]
+{
+    background: #009900 ;
+    border: none;
+    padding: 10px 10px 0 10px;
+    font-size: 20px;
+    color: #fff;
+    box-sizing: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+   /* Start footer */
+   footer{
+  
+    padding-bottom: 44px;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+  }
+  footer .containar{
+    margin: auto;
+  width: 94%;
+  }
+  footer .containar .Abt,
+footer .containar .contact,
+footer .containar .open,
+footer .containar .offer
+{
+float: left;
+width: 23%;
+margin-right: 22px;
+padding-top:50px;
+}
+
+  footer .containar .Abt h5,
+footer .containar .contact h5,
+footer .containar .open h5,
+footer .containar .offer h5
+{
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #009900;
+  font-family: 'Lobster', cursive;
+}
+footer .containar .Abt p,
+footer .containar .contact p,
+footer .containar .open p,
+footer .containar .offer p{
+font-size: 16px;
+color: #a7a7a7;
+margin-bottom: 2px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+footer .containar span{
+padding-left:30px;
+}
+footer .containar span .s1{
+padding-left:35px;
+}
+
+footer .offer .sp {
+border-bottom: 1px solid #a7a7a7;
+padding-bottom: 8px;
+display: block;
+opacity: 0.8;
+margin-bottom: 8px;
+font-size: 14px;
+padding-left:0;
+font-size: 16px;
+color: #eeeeee;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+

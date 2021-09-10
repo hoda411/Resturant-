@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title> Comment Page </title>
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+        </head>
+         
+        <body>
+
+             <!--  Start NavBar -->
+        <div class="NavBar">
+            <div class="Container">
+                <div class="Left">
+                        <h3>Shamista</h3>
+                    </div>
+                    <div class="Right">
+                    <a href="../HOME PAGE/index3.html"> Home </a>
+                    <a href="../HOME PAGE/index3.html#Menu"> Menu </a>
+                    <a href="../About/update.html"> About </a>
+                    <a href="../Contact/contact.html.html"> Contact </a>
+                    <a href="comment.html"> Comment </a>
+                    <a href="../SignUp/N_index.html"> Sign Up </a>
+                    <a href="../SignIn/S_index.html"> Sign In </a>
+                
+                    </div>
+            </div>
+        </div>
+
+      <!-- End NanBar -->
+           <br> <br> <br> 
+        <div class="body">
+           <h1> Comment Page </h1>
+           <br> <br> <br> <br> <br> <br>
+           
+            <label class="comment">Write your comment</label> <br> <br>
+            <textarea rows="5" cols="50">
+             Write here:
+            </textarea>
+            <br> <br> <br>
+
+            <div class="rate">
+                <fieldset>
+
+                <legend class="legen"> Select your rate</legend> <br>
+
+            <input type="radio" name="rate" value="*" style="margin: 10px;">* &nbsp; &nbsp; &nbsp; &nbsp;
+            
+            <input type="radio" name="rate" value="**">** &nbsp; &nbsp; &nbsp; &nbsp;
+            
+            <input type="radio" name="rate" value="***">*** &nbsp; &nbsp; &nbsp; &nbsp;
+
+            <input type="radio" name="rate" value="****">**** &nbsp; &nbsp; &nbsp; &nbsp;
+
+            <input type="radio" name="rate" value="*****">***** &nbsp; &nbsp; &nbsp; &nbsp;
+            <br> <br> 
+
+            </fieldset>
+
+           </div> 
+           <br>
+           
+           <button id="send"> send </button> 
+
+            </div>
+            
+
+             <!-- Start Footer -->
+         <footer>
+            <div class="containar">
+                 
+                    
+                    <div class="open">
+                        <h5> Opening Hours </h5>
+                        <p>
+                            Monday:<span class="s1">Closed</span>
+                             <br>
+                            Tue-Wed :<span class="s2">9:Am - 10PM</span>
+                            <br>
+                            Thu-Fri : <span>9:Am - 10PM</span>
+                            <br>
+                            Sat-Sun :<span>5:PM - 10PM</span> 
+                        </p>
+                    </div>  
+                    
+                    <div class="Abt">
+                        <h5> Abouts</h5>
+                        <p> Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+                    </div>
+                        <div class="contact">
+                            <h5> Contact Information </h5>
+                            <p> Ipsum Street, Lorem Tower, MO, Columbia, 508000<br>  +01 2000 800 9999<br> info@admin.com</p>
+                        </div> 
+
+                        <div class="offer">
+                            <h5>Feedback </h5>
+                            <p>
+                            <span class="sp" > Name</span> 
+                                 <span class="sp" > E-mail</span> 
+                                <span  class="sp" > Feedback</span> 
+                                
+                            </p>
+                            </div> 
+
+                    
+                            <script>
+                            function test(){ 
+    var name=document.forms["mform"]["U_Name"].value;
+    var email=document.forms["mform"]["U_Email"].value;
+    var phone=document.forms["mform"]["U_Phone"].value;
+    var occ=document.forms["mform"]["U_occ"].value;
+    var Message =document.forms["mform"]["U_Message"].value;
+    var Date =document.forms["mform"]["U_Date"].value;
+
+    if(name==""||email==""||phone==""||occ==""||Message==""||Date=="")
+   {
+    alert("Please Make Sure All Fields Are Full");
+    return false;
+   }
+        else
+        return true;
+        }
+         </script>
+                    
+                      <script src="alert.js"> </script>
+
+
+        </body>
+        </html>

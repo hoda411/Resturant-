@@ -1,0 +1,72 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>
+         Sign UP PAGE
+        </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+         <!--  Start NavBar -->
+       <div class="NavBar">
+        <div class="Container">
+            <div class="Left">
+                    <h2>Shamista</h2>
+                </div>
+                <div class="Right">
+                <a href="../HOME PAGE/index3.html"> Home </a>
+                <a href="../HOME PAGE/index3.html#Menu"> Menu </a>
+                <a href="../About/update.html"> About </a>
+                <a href="../Contact/contact.html.html"> Contact </a>
+                <a href="../Comment/comment.html"> Comment </a>
+                <a href="N_index.html"> Sign Up </a>
+                <a href="../SignIn/S_index.html"> Sign In </a>
+            
+                </div>
+        </div>
+    </div>
+
+    <div class="signup">
+        <div class="SEC">
+       <form class="form-login" name="mform" onsubmit="return test()" action="../HOME PAGE/index3.html">
+        <img src="../Images/images4.jpg" height="100">
+        <br>
+        <br>
+        <label style="color: #ffffff;" for="fn">  First Name</label>
+        <input type="text" name="fnn" for="fn"><br>
+        <label style="color: #ffffff;" for="ln"> Last Name</label>
+        <input type="text" for="ln" name="lnn"><br>
+        <label style="color: #ffffff;" for="pas">New Password</label>
+        <input type="password" for="pas" name="pass" ><br>
+        <label style="color: #ffffff;" for="em">E-Mail</label>
+        <input type="email" for="em" name="emm"><br>
+     <input class="button" type="submit" value="Sign Up">
+       </form>
+        </div>
+    </div>
+       
+    <script>
+        function test(){ 
+    var fname=document.forms["mform"]["fnn"].value;
+    var lname=document.forms["mform"]["lnn"].value;
+    var email=document.forms["mform"]["emm"].value;
+    var password=document.forms["mform"]["pass"].value;
+    if(fname==""||lname==""||email==""||password=="")
+   {
+    alert("Please Make Sure All Fields Are Full");
+    return false;
+   }
+else
+return true;
+        }
+            </script>   
+    </body>
+</html>

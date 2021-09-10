@@ -1,0 +1,73 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>
+         Sign IN PAGE
+        </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+         <!--  Start NavBar -->
+       <div class="NavBar">
+        <div class="Container">
+            <div class="Left">
+                    <h2>Shamista</h2>
+                </div>
+                <div class="Right">
+                <a href="../HOME PAGE/index3.html"> Home </a>
+                <a href="../HOME PAGE/index3.html#Menu"> Menu </a>
+                <a href="../About/update.html"> About </a>
+                <a href="../Contact/contact.html.html"> Contact </a>
+                <a href="../Comment/comment.html"> Comment </a>
+                <a href="../SignUp/N_index.html"> Sign Up </a>
+                <a href="S_index.html"> Sign In </a>
+            
+                </div>
+        </div>
+    </div>
+
+        <div class="login">
+            <div class="SEC">
+           <form class="form-login" name="myform" onsubmit="return test()" action="../HOME PAGE/index3.html">
+            <img src="../Images/images4.jpg" height="100">
+            <br><br>
+            <label style="color: #ffffff;" for="fn">User Name</label>
+            <input type="text" name="un" for="fn"><br>
+            <label style="color: #ffffff;" for="pas">Password</label>
+            <input type="password" name="pass" for="pas">
+           <input class="button" type="submit" value="Sign in">
+            <p> Not Register <a class="Bt" href="../SignUp/N_index.html"> Register Now </a></p>
+           </form>
+            </div>
+        </div>
+        
+       
+<script>
+    function test(){ 
+    var name_arr=["Hoda","Heba","Nader","Mostafa"];
+    var pass_arr=["123","176","415","785"];
+    var name=document.forms["myform"]["un"].value;
+    var password=document.forms["myform"]["pass"].value;
+    for(var i=0;i<4;i++){
+        if(name== name_arr[i]&&password==pass_arr[i])
+        return true;
+        else if(name=="" || password==""){
+            alert("Name Or Password Is Empty");
+            return false;
+        }
+
+    }
+    return false;
+}
+
+</script>
+    </body>
+</html>

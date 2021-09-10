@@ -1,0 +1,306 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Start NavBar */
+div.all
+{
+    min-width:800px;
+    max-width: 2000px;
+    width:100%;
+    overflow: hidden;
+}
+.NavBar {
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.NavBar .Container{
+  width: 94%;
+  margin: auto;
+}
+
+.NavBar .Container .Left{
+ float: left;
+}
+
+.NavBar .Container .Left h3 {
+  font-weight: 150;
+  color: #009900;
+  font-size: 30px;
+  margin: 9px;
+  font-family: 'Lobster', cursive;
+
+ }
+
+.NavBar .Container .Right{
+float: right;
+padding: 19px;
+font-size: 15px;
+}
+
+.NavBar .Container .Right a {
+  text-decoration: none;
+  margin:  5px;
+  padding:3px;
+  color: #009900;
+  font-size: 19px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+ }
+
+ .NavBar .Container .Right a:hover{
+  border-bottom: 2px solid   #009900; 
+  color: #000000;
+  font-size: 20px;
+  padding-bottom: 17px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+ }
+  /* End NavBar */
+  /*start top_section*/
+  div.top_section
+  {
+    min-width:800px;
+    max-width:2000px;
+    width:100%;
+    height:200px;
+    margin-top:50px;
+    border:#000 solid 1px; 
+    background:#212225;
+    border-bottom: 5px solid #00e676;
+  }
+  div.restaurant_name
+  {
+      width:300px;
+      height: 40px;
+      font-family: Rockwell;
+      font-size: 20px;
+      margin-bottom: 20px;
+      margin: 80px auto;
+      color : #00e676
+  }
+  span
+  {
+  color:#fff;
+  }
+  /*end top_section*/
+  /*--start video section*/
+   div.content
+    {
+        min-width:800px;
+        max-width:2000px;
+        width:100%;
+        height:1500px;
+        overflow: hidden;
+   }
+   div.text
+   {
+        min-width:200px;
+        max-width:500px;
+        width:30%;
+        height:600px;
+        overflow: hidden;
+        display:inline-block; 
+   }
+   #color
+   {
+    color:#2bd32b
+   }
+   div.video
+   {
+        float: right;
+        min-width:600px;
+        max-width:1500px;
+        width:70%;
+        height:600px;
+        border:none;
+        overflow: hidden;
+   }
+  
+   div.one
+   {
+    width:65%;
+    height:100%;
+    margin-left:20%;
+    margin-top:150px;
+   }
+  
+   div.l
+   {
+     width:50%;
+     height:900px;
+     display:inline-block;
+   }
+   div.four
+   {
+    width:100%;
+    height:180px;
+    
+   }
+   div.sex
+   {
+       width:100%;
+       height:100px;
+   }
+   div.seven
+   {
+       float: left;
+       width:48%;
+       height:200px;
+   }
+   div.eight
+   {
+       float: right;
+       width:52%;
+       height:200px;
+   }
+   th 
+   {
+    width: 145px;
+    height: 60px;
+   }
+   td
+   {
+    width: 170px;
+    height: 30px;
+   }
+   .h
+   {
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    color:#009900;
+    font-size: 30px;
+    margin: 30px 0px
+   }
+   .s
+   {
+    color:#212225ea;
+    font-size:14px;
+    font-weight: 400;
+   }
+   div.five
+   {
+    width:90%;
+    height:300px;
+   }
+    div.r
+   {
+    float: right;
+     width:40%;
+     height:900px;
+   }
+   div.size
+   {
+    float: right;
+    width: 1000px;
+    height: 560px;
+
+   }
+   div.link
+   {
+    float: right;
+    width:70%;
+    height:80%;
+    overflow: hidden;
+    margin-top: 20px;
+   }
+   
+   a
+   {
+    text-decoration:none;
+    color: #212225
+    
+   }
+   a:hover
+   {
+    text-decoration:underline #00e676 3px;
+    color: #212225
+   }
+   ul
+   {
+     list-style-type: none
+   }
+   hr
+   {
+    color: rgb(0, 0, 0);
+   }
+  /*end video section*/
+/* Start footer */
+footer
+{
+    margin:0px;
+    margin-top:0px;
+    bottom:0;
+    left: 0;
+    min-width:800px;
+    max-width: 2000px;
+    width:100%;
+    height:200px;
+    padding-bottom:20px;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+  }
+  footer .containar{
+    margin: auto;
+  width: 94%;
+  }
+  footer .containar .Abt,
+footer .containar .contact,
+footer .containar .open,
+footer .containar .offer
+{
+float: left;
+width: 23%;
+margin-right: 22px;
+padding-top:50px;
+}
+
+  footer .containar .Abt h5,
+footer .containar .contact h5,
+footer .containar .open h5,
+footer .containar .offer h5
+{
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #009900;
+  font-family: 'Lobster', cursive;
+}
+footer .containar .Abt p,
+footer .containar .contact p,
+footer .containar .open p,
+footer .containar .offer p{
+font-size: 16px;
+color: #a7a7a7;
+margin-bottom: 2px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+footer .containar span{
+padding-left:30px;
+color:#ffffffc2
+}
+footer .containar span .s1{
+padding-left:35px;
+}
+
+footer .offer .sp {
+border-bottom: 1px solid #a7a7a7;
+padding-bottom: 8px;
+display: block;
+opacity: 0.8;
+margin-bottom: 8px;
+font-size: 14px;
+padding-left:0;
+font-size: 16px;
+color: #eeeeee;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
